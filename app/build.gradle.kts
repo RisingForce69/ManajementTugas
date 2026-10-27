@@ -48,6 +48,7 @@ dependencies {
     implementation("androidx.room:room-runtime:2.8.4")
     implementation("androidx.room:room-ktx:2.8.4")
     ksp("androidx.room:room-compiler:2.8.4")
+    implementation("androidx.compose.material:material-icons-core")
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
